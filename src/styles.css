@@ -1,41 +1,41 @@
 #cont-btn{
 
-display: grid;
-grid-template-columns: repeat(6,100px);
-grid-template-rows: repeat(2, 30px);
-gap: 40px;
-justify-content: center;
-border: 20px solid #E74C3C;
-margin: 10px;
-padding: 5px;
-}
-
-#cont-h1{
-    grid-column: span 6;
-    justify-content: center;
-}
-
-#cont-form{
-    margin-top: 10px;
-}
-
-#lista{
     display: grid;
-    grid-template-columns: repeat(11, 20px);
+    grid-template-columns: repeat(6,100px);
+    grid-template-rows: repeat(2, 30px);
+    gap: 40px;
     justify-content: center;
-    gap: 10px;
-}
-
-button{
-    grid-column: span 3;
-}
-
-#formulario{
-    display: grid;
-    grid-template-columns:150px; 
-    justify-content: center;
-}
-
-li{    
-    list-style: none;
-}
+    border: 20px solid #E74C3C;
+    margin: 10px;
+    padding: 5px;
+    }
+    
+    #cont-h1{
+        grid-column: span 6;
+        justify-content: center;
+    }
+    
+    #cont-form{
+        margin-top: 10px;
+    }
+    
+    #lista{
+        display: grid;
+        grid-template-columns: repeat(11, 20px);
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    button{
+        grid-column: span 3;
+    }
+    
+    #formulario{
+        display: grid;
+        grid-template-columns:150px; 
+        justify-content: center;
+    }
+    
+    li{    
+        list-style: none;
+    }
